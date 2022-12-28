@@ -1,5 +1,5 @@
 import telebot
-bot = telebot.TeleBot('5805282132:AAF6oeYx5cfCGkbnO4nV4qluAG4L0YIVRnQ')
+bot = telebot.TeleBot('123')
 bot.set_webhook()
 
 @bot.message_handler(commands=['start'])
